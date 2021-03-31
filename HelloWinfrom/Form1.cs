@@ -16,5 +16,17 @@ namespace HelloWinfrom
         {
             InitializeComponent();
         }
+
+        private void button(object sender, EventArgs e)
+        {
+            if(sender.Equals(button1))
+            {
+                MessageBox.Show("첫 번재 버튼 와우!");
+            }
+            else
+            {
+                MessageBox.Show("첫 번재 버튼 와우!");
+            }
+        }
     }
 }
